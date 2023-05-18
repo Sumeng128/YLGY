@@ -1,0 +1,45 @@
+D:\山医大\C#练习\羊了个羊\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+D:\山医大\C#练习\羊了个羊\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+D:\山医大\C#练习\羊了个羊\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+D:\山医大\C#练习\羊了个羊\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.AssemblyReference.cache
+D:\山医大\C#练习\羊了个羊\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.SuggestedBindingRedirects.cache
+D:\山医大\C#练习\羊了个羊\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+D:\山医大\C#练习\羊了个羊\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+D:\山医大\C#练习\羊了个羊\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+D:\山医大\C#练习\羊了个羊\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+D:\山医大\C#练习\羊了个羊\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+D:\山医大\C#练习\羊了个羊\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+D:\山医大\C#练习\羊了个羊\WindowsFormsApp1 - 副本\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+D:\山医大\C#练习\羊了个羊\WindowsFormsApp1 - 副本\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+D:\山医大\C#练习\羊了个羊\WindowsFormsApp1 - 副本\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+D:\山医大\C#练习\羊了个羊\WindowsFormsApp1 - 副本\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.AssemblyReference.cache
+D:\山医大\C#练习\羊了个羊\WindowsFormsApp1 - 副本\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.SuggestedBindingRedirects.cache
+D:\山医大\C#练习\羊了个羊\WindowsFormsApp1 - 副本\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+D:\山医大\C#练习\羊了个羊\WindowsFormsApp1 - 副本\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+D:\山医大\C#练习\羊了个羊\WindowsFormsApp1 - 副本\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+D:\山医大\C#练习\羊了个羊\WindowsFormsApp1 - 副本\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+D:\山医大\C#练习\羊了个羊\WindowsFormsApp1 - 副本\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+D:\山医大\C#练习\羊了个羊\WindowsFormsApp1 - 副本\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+C:\Users\junji\Source\Repos\3sheeps\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.AssemblyReference.cache
+C:\Users\junji\Source\Repos\3sheeps\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.SuggestedBindingRedirects.cache
+C:\Users\junji\Source\Repos\3sheeps\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+C:\Users\junji\Source\Repos\3sheeps\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\junji\Source\Repos\3sheeps\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+C:\Users\junji\Source\Repos\3sheeps\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+C:\Users\junji\Source\Repos\3sheeps\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\Users\junji\Source\Repos\3sheeps\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+C:\Users\junji\Source\Repos\3sheeps\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\Users\junji\Source\Repos\3sheeps\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\Users\junji\Source\Repos\3sheeps\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+C:\Users\苏梦\Desktop\3sheeps-master\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\Users\苏梦\Desktop\3sheeps-master\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\Users\苏梦\Desktop\3sheeps-master\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+C:\Users\苏梦\Desktop\3sheeps-master\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.AssemblyReference.cache
+C:\Users\苏梦\Desktop\3sheeps-master\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.SuggestedBindingRedirects.cache
+C:\Users\苏梦\Desktop\3sheeps-master\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+C:\Users\苏梦\Desktop\3sheeps-master\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\苏梦\Desktop\3sheeps-master\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+C:\Users\苏梦\Desktop\3sheeps-master\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+C:\Users\苏梦\Desktop\3sheeps-master\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\Users\苏梦\Desktop\3sheeps-master\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+C:\Users\苏梦\Desktop\3sheeps-master\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form2.resources
