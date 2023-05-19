@@ -204,7 +204,7 @@ namespace WindowsFormsApp1
             List<Image> images = new List<Image>();
             for (int i = 0; i < 16; i++)
             {
-                string imageFileName = @"C:\Users\苏梦\Desktop\YLGY\图片素材\" + i + ".png";
+                string imageFileName = @"..\..\..\图片素材\" + i + ".png";
                 Image _image = Image.FromFile(imageFileName);
                 images.Add(_image);
             }
