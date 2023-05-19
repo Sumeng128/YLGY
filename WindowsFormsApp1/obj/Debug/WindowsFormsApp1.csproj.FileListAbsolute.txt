@@ -43,3 +43,15 @@ C:\Users\苏梦\Desktop\3sheeps-master\WindowsFormsApp1\obj\Debug\WindowsFormsAp
 C:\Users\苏梦\Desktop\3sheeps-master\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
 C:\Users\苏梦\Desktop\3sheeps-master\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
 C:\Users\苏梦\Desktop\3sheeps-master\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form2.resources
+C:\Users\苏梦\Desktop\YLGY\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\Users\苏梦\Desktop\YLGY\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\Users\苏梦\Desktop\YLGY\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+C:\Users\苏梦\Desktop\YLGY\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.AssemblyReference.cache
+C:\Users\苏梦\Desktop\YLGY\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.SuggestedBindingRedirects.cache
+C:\Users\苏梦\Desktop\YLGY\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+C:\Users\苏梦\Desktop\YLGY\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form2.resources
+C:\Users\苏梦\Desktop\YLGY\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\苏梦\Desktop\YLGY\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+C:\Users\苏梦\Desktop\YLGY\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+C:\Users\苏梦\Desktop\YLGY\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\Users\苏梦\Desktop\YLGY\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb

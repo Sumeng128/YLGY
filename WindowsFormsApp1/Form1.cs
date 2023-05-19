@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.Drawing.Imaging;
 using System.IO;
 using System.Linq;
 using System.Reflection;
@@ -36,9 +37,89 @@ namespace WindowsFormsApp1
 
             RemoveButtons();
         }
+        class CtrEnabled
+        {
+            [System.Runtime.InteropServices.DllImport("user32.dll ")]
+            static extern int SetWindowLong(IntPtr hWnd, int nIndex, int wndproc);
+            [System.Runtime.InteropServices.DllImport("user32.dll ")]
+            static extern int GetWindowLong(IntPtr hWnd, int nIndex);
 
+            const int GWL_STYLE = -16;
+            const int WS_DISABLED = 0x8000000;
 
-        private void AddButtonToPanel(Button Button)
+            public static void SetControlEnabled(Control c, bool enabled)
+            {
+                if (enabled)
+                {
+                    SetWindowLong(c.Handle, GWL_STYLE, (~WS_DISABLED) & GetWindowLong(c.Handle, GWL_STYLE));
+                }
+                else
+                {
+                    SetWindowLong(c.Handle, GWL_STYLE, WS_DISABLED + GetWindowLong(c.Handle, GWL_STYLE));
+                }
+            }
+
+        }
+        private void AddButtonToPanel(Button button)
+        {
+            // 获取图片的Base64编码
+            string imageBase64 = Convert.ToBase64String(ImageToBytes(button.Image));
+            // 存储相同图片的Button
+            List<Button> sameImageButtons = new List<Button>();
+            // 遍历Panel中的Button
+            foreach (Button existButton in panel.Controls.OfType<Button>())
+            {
+                string existImageBase64 = Convert.ToBase64String(ImageToBytes(existButton.Image));
+                // 判断新Button和已存在的Button是否有相同的图片
+                if (imageBase64 == existImageBase64)
+                {
+                    sameImageButtons.Add(existButton);
+                }
+            }
+            // 如果有3个相同图片的Button，则将它们都移除，并重新排列剩余Button
+            if (sameImageButtons.Count == 2)
+            {
+                sameImageButtons.Add(button);
+                foreach (Button sameImageButton in sameImageButtons)
+                {
+                    panel.Controls.Remove(sameImageButton);
+                }
+                ReorderButtons();
+                return;
+            }
+            // 将新Button添加到Panel中，并重新排列所有Button
+            CtrEnabled.SetControlEnabled(button, false);
+            panel.Controls.Add(button);
+            ReorderButtons();
+            // 判断是否达到游戏结束的条件
+            if (panel.Controls.OfType<Button>().Count() == 7)
+            {
+                MessageBox.Show("游戏结束！");
+            }
+        }
+
+        private byte[] ImageToBytes(Image image)
+        {
+            using (MemoryStream ms = new MemoryStream())
+            {
+                image.Save(ms, ImageFormat.Png);
+                return ms.ToArray();
+            }
+        }
+
+        private void ReorderButtons()
+        {
+            int buttonCount = panel.Controls.OfType<Button>().Count();
+            for (int i = 0; i < buttonCount; i++)
+            {
+                Button button = panel.Controls.OfType<Button>().ElementAt(i);
+                if (button != null)
+                {
+                    button.Location = new Point((i % 7) * 50, 0);
+                }
+            }
+        }
+        /*private void AddButtonToPanel(Button Button)
         {
             int sameImageCount = 0; // 相同图片的数量
             List<Button> sameImageButtons = new List<Button>(); // 存储相同图片的 Button
@@ -47,14 +128,15 @@ namespace WindowsFormsApp1
             Button.Image.Save(ms, System.Drawing.Imaging.ImageFormat.Png);
             String secondBitmap = Convert.ToBase64String(ms.ToArray());
             // 遍历 panel 中的 Button
-            for (int i = count - 1; i <= count && i >= 0; i--)
+            for (int i = count - 1 ; i <= count && i >= 0; i--)
             {
+ 
                 Button existButton = panel.Controls[i] as Button;
-
+                ms.Position = 0;
                 if (existButton != null)
                 {
                     //判断两张图片是否一致的两种方法
-                    ms.Position = 0;
+                    
                     existButton.Image.Save(ms, System.Drawing.Imaging.ImageFormat.Png);
                     String firstBitmap = Convert.ToBase64String(ms.ToArray());
                     if (secondBitmap.Equals(firstBitmap))
@@ -70,6 +152,7 @@ namespace WindowsFormsApp1
                         Button.Location = new Point(existButton.Location.X + 50, 0);
                         panel.Controls.SetChildIndex(Button, index + 1);
                     }
+                    
                 }
             }
             if (sameImageCount == 2)
@@ -111,7 +194,7 @@ namespace WindowsFormsApp1
                 //Form1.ActiveForm.Close();
                 return;
             }
-        }
+        }*/
         private void RemoveButtons()
         {
 
@@ -121,7 +204,7 @@ namespace WindowsFormsApp1
             List<Image> images = new List<Image>();
             for (int i = 0; i < 16; i++)
             {
-                string imageFileName = @"C:\Users\苏梦\Desktop\3sheeps-master\图片素材\" + i + ".png";
+                string imageFileName = @"C:\Users\苏梦\Desktop\YLGY\图片素材\" + i + ".png";
                 Image _image = Image.FromFile(imageFileName);
                 images.Add(_image);
             }
