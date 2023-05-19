@@ -35,9 +35,9 @@
             // 
             // panel
             // 
-            this.panel.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.panel.BackColor = System.Drawing.Color.DarkGoldenrod;
             this.panel.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.panel.Location = new System.Drawing.Point(80, 628);
+            this.panel.Location = new System.Drawing.Point(81, 745);
             this.panel.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.panel.Name = "panel";
             this.panel.Size = new System.Drawing.Size(560, 81);
@@ -49,9 +49,9 @@
             this.btnRestart.FlatAppearance.BorderSize = 0;
             this.btnRestart.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnRestart.Font = new System.Drawing.Font("宋体", 9F);
-            this.btnRestart.Location = new System.Drawing.Point(648, 69);
+            this.btnRestart.Location = new System.Drawing.Point(594, 23);
             this.btnRestart.Name = "btnRestart";
-            this.btnRestart.Size = new System.Drawing.Size(79, 32);
+            this.btnRestart.Size = new System.Drawing.Size(106, 61);
             this.btnRestart.TabIndex = 1;
             this.btnRestart.Text = "Restart";
             this.btnRestart.UseVisualStyleBackColor = false;
@@ -63,9 +63,9 @@
             this.btnEnd.FlatAppearance.BorderSize = 0;
             this.btnEnd.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnEnd.Font = new System.Drawing.Font("宋体", 9F);
-            this.btnEnd.Location = new System.Drawing.Point(2, 69);
+            this.btnEnd.Location = new System.Drawing.Point(25, 23);
             this.btnEnd.Name = "btnEnd";
-            this.btnEnd.Size = new System.Drawing.Size(79, 32);
+            this.btnEnd.Size = new System.Drawing.Size(114, 61);
             this.btnEnd.TabIndex = 2;
             this.btnEnd.Text = "End";
             this.btnEnd.UseVisualStyleBackColor = false;
@@ -77,7 +77,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::WindowsFormsApp1.Properties.Resources.D51F53BA479E7EB5224BFB42E084412D1;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(728, 744);
+            this.ClientSize = new System.Drawing.Size(728, 960);
             this.Controls.Add(this.btnEnd);
             this.Controls.Add(this.btnRestart);
             this.Controls.Add(this.panel);

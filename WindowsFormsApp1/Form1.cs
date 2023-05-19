@@ -183,15 +183,22 @@ namespace WindowsFormsApp1
                 int offsetX = 25 * random.Next(-1, 2);
                 int offsetY = 25 * random.Next(-1, 2);
                 int len = random.Next(0, 13) * 3;//限制不显示的图片为3的倍数，防止不能通关
-                int l = 0;
+                int l = 0;//计数没有显示的图片数目
+                /*
+                 lx,ly防止其因为图片不显示而跳过图片
+                 */
+                int lx = 0;
+                int ly = 0;
                 for (int x = 0; x < 6; x++)
                 {
+                    lx++;
                     //int oy = random.Next(0, 6);
                     for (int y = 0; y < 6; y++)
                     {
                         int Mask = random.Next(0, 2);//判断这个图片显示与否,生成随机的图像
                         if (l < len)
                         {
+                            l++;
                             if (Mask == 0)
                             {
                                 continue;
@@ -202,14 +209,15 @@ namespace WindowsFormsApp1
                             continue;
                         }*/
                         Button but1 = new Button();
-                        but1.Location = new System.Drawing.Point(x: 100 + 50 * x + offsetX, y: 50 + 50 * y + offsetY);
+                        but1.Location = new System.Drawing.Point(x: 100 + 50 * x + offsetX, y: 100 + 50 * y + offsetY);
                         but1.Size = new System.Drawing.Size(width: 50, height: 50);
-                        but1.Image = pailist1[i * 36 + x * 6 + y].bitmap;
+                        but1.Image = pailist1[i * 36 + lx * 6 + ly].bitmap;
                         but1.BackgroundImageLayout = ImageLayout.Zoom;
                         but1.TabIndex = i;
                         but1.Text = Convert.ToString("");
                         this.Controls.Add(but1);
                         but1.Click += new EventHandler(Button_Click);
+                        ly ++;
                     }
                 }
             }
@@ -234,7 +242,7 @@ namespace WindowsFormsApp1
             foreach (var item in pailist2)
             {
                 Button but2 = new Button();
-                but2.Location = new System.Drawing.Point(x: 100 + (48 - size) * 2 + 5 * item.index, y: 370);
+                but2.Location = new System.Drawing.Point(x: 100 + (48 - size) * 2 + 5 * item.index, y: 430);
                 but2.Size = new System.Drawing.Size(width: 50, height: 50);
                 but2.Image = item.bitmap;
                 this.Controls.Add(but2);

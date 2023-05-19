@@ -39,7 +39,7 @@
             this.btnStart.FlatAppearance.BorderSize = 0;
             this.btnStart.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnStart.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.btnStart.Location = new System.Drawing.Point(269, 294);
+            this.btnStart.Location = new System.Drawing.Point(269, 433);
             this.btnStart.Name = "btnStart";
             this.btnStart.Size = new System.Drawing.Size(190, 82);
             this.btnStart.TabIndex = 0;
@@ -53,7 +53,7 @@
             this.btnEnd.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnEnd.FlatAppearance.BorderSize = 0;
             this.btnEnd.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnEnd.Location = new System.Drawing.Point(269, 429);
+            this.btnEnd.Location = new System.Drawing.Point(269, 596);
             this.btnEnd.Name = "btnEnd";
             this.btnEnd.Size = new System.Drawing.Size(190, 82);
             this.btnEnd.TabIndex = 1;
@@ -65,8 +65,9 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::WindowsFormsApp1.Properties.Resources.D51F53BA479E7EB5224BFB42E084412D1;
-            this.ClientSize = new System.Drawing.Size(728, 744);
+            this.BackgroundImage = global::WindowsFormsApp1.Properties.Resources.主界面;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ClientSize = new System.Drawing.Size(728, 960);
             this.Controls.Add(this.btnEnd);
             this.Controls.Add(this.btnStart);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
